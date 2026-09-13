@@ -200,6 +200,16 @@ ul { padding: 0; margin: 0; list-style: none; }
   color: var(--color-amber-dark);
   margin-bottom: 8px;
 }
+
+.section-eyebrow-1 {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-forest);
+  margin-bottom: 8px;
+}
+
 .section-intro { max-width: 62ch; color: var(--color-ink-soft); }
 
 .split { display: grid; grid-template-columns: 1.3fr 1fr; gap: 44px; margin-top: 30px; align-items: start; }
@@ -207,7 +217,7 @@ ul { padding: 0; margin: 0; list-style: none; }
 .check-list li {
   position: relative;
   padding-left: 28px;
-  color: var(--color-ink-soft);
+  color: var(--color-forest);
 }
 .check-list li::before {
   content: "✓";
