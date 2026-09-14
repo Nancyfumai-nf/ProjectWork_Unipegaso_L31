@@ -210,10 +210,6 @@ ul { padding: 0; margin: 0; list-style: none; }
   margin-bottom: 8px;
 }
 
-.colorefuturo {
-  color: var(--color-amber-dark);
-}
-
 .section-intro { max-width: 62ch; color: var(--color-ink-soft); }
 
 .split { display: grid; grid-template-columns: 1.3fr 1fr; gap: 44px; margin-top: 30px; align-items: start; }
@@ -290,7 +286,6 @@ ul { padding: 0; margin: 0; list-style: none; }
 }
 .stat-label { font-weight: 600; color: #fff; }
 .stat-delta { font-size: 0.82rem; color: #b9c4bc; }
-.stat-delta.up::before { content: "▲ "; color: #7fc79a; }
 
 .chart-block {
   background: rgba(255, 255, 255, 0.05);
